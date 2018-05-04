@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Video Game Quiz</title>
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+    <div id="quiz">
+
+        <form>
+  
+          <h2>What year was Nintendo Founded?</h2>
+          <div>
+            <!-- b1 -->
+            <input type="radio" name="answer1" value="a1"><label>a: 1974</label>
+            <input type="radio" name="answer1" value="b1"><label>b: 1889</label>
+            <input type="radio" name="answer1" value="c1"><label>c: 1960</label>
+            <input type="radio" name="answer1" value="d1"><label>d: 2000</label>
+          </div>
+          <p id="oneChosen"></p>
+  
+          <h2>Which video game console did Nintendo first produce?</h2>
+          <div>
+            <!-- c2-->
+            <input type="radio" name="answer2" value="a2"><label>a: Game and Watch</label>
+            <input type="radio" name="answer2" value="b2"><label>b: Nintendo Entertainment System</label>
+            <input type="radio" name="answer2" value="c2"><label>c: Color TV-Game</label>
+            <input type="radio" name="answer2" value="d2"><label>d: Nintendo Switch</label>
+          </div>
+  
+          <h2>What was Nintendo's first handheld system?</h2>
+          <div>
+            <!-- a3-->
+            <input type="radio" name="answer3" value="a3"><label>a: Game and Watch</label>
+            <input type="radio" name="answer3" value="b3"><label>b: Game Boy</label>
+            <input type="radio" name="answer3" value="c3"><label>c: Virtual Boy</label>
+            <input type="radio" name="answer3" value="d3"><label>d: Nintendo DS</label>
+          </div>
+  
+          <h2>Did Nintendo start as a card company?</h2>
+          <div>
+            <!-- a4-->
+            <input type="radio" name="answer4" value="a4"><label>a: True</label>
+            <input type="radio" name="answer4" value="b4"><label>b: False</label>
+          </div>
+  
+          <h2>What toys did Nintendo produce?</h2>
+          <div>
+            <!-- d5-->
+            <input type="radio" name="answer5" value="a5"><label>a: Ultra Hand</label>
+            <input type="radio" name="answer5" value="b5"><label>b: Ultra Machine</label>
+            <input type="radio" name="answer5" value="c5"><label>c: Love Tester</label>
+            <input type="radio" name="answer5" value="d5"><label>d: All of the above</label>
+          </div>
+  
+        </form>
+          
+        </div>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
+  
+  </body>
+</html>
